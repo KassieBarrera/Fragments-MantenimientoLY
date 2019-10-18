@@ -14,7 +14,6 @@ class MainActivity : FragmentActivity(), DataFragment.DataList {
     val dFragment = supportFragmentManager.findFragmentById(R.id.detail_fragment) as DetailsFragment
 
         dFragment.renderizar(text)
-
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
